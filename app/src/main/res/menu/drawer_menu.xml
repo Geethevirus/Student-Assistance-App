@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_home"
+            android:title="Home"/>
+
+        <item android:id="@+id/lesson_d"
+            android:icon="@drawable/ic_baseline_menu_book"
+            android:title="Lessons"/>
+        <item android:id="@+id/tutor"
+            android:icon="@drawable/ic_baseline_tutor"
+            android:title="tutor"/>
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <item android:id="@+id/about"
+                android:icon="@drawable/ic_baseline_person"
+                android:title="About"/>
+            <item android:id="@+id/siginout"
+                android:icon="@drawable/ic_baseline_exit_to_app"
+                android:title="Sign out"/>
+        </menu>
+    </item>
+    <item android:title="Communication">
+        <menu>
+            <item android:id="@+id/share"
+                android:icon="@drawable/ic_baseline_share"
+                android:title="About"/>
+            <item android:id="@+id/rate_us"
+                android:icon="@drawable/ic_baseline_emoji_emotions"
+                android:title="Rate us"/>
+        </menu>
+    </item>
+</menu>

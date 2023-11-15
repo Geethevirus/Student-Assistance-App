@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">RecyclerViewTestApp</string>
+    <string name="sigin_in">SIGN IN</string>
+    <string name="sigin_up">CREATE ACCOUNT</string>
+    <string name="login">Login</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="password">Password</string>
+    <string name="hellow">Hellow</string>
+    <string name="letslearn">LetsLEARN</string>
+    <string name="welcometo">Welcome to</string>
+    <string name="welcome">Welcome back,</string>
+    <string name="emailhint">Email</string>
+    <string name="todo">TODO</string>
+    <string name="user_name">Name</string>
+    <string name="register">Register</string>
+    <string-array name="description">
+        <item>Social Science</item>
+        <item>Physics</item>
+        <item>Maths Pure</item>
+        <item>Maths lit</item>
+        <item>Life science</item>
+        <item>Geography</item>
+        <item>Accounting</item>
+        <item>Business</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="lessonNames">
+        <item>Principles of Programming A</item>
+        <item>Principles of Programming B</item>
+        <item>Web Computing</item>
+        <item>Computational Maths</item>
+        <item>Discrete Structures</item>
+        <item>Advance Discrete Structures</item>
+        <item>Database Principles</item>
+        <item>PL/SQL</item>
+        <item>Internet Programming</item>
+        <item>Mobile Computing</item>
+        <item>Mobile Computing</item>
+        <item>Mobile Computing</item>
+    </string-array>
+    <string-array name="descrip">
+        <item>Problem solving, innovation ...</item>
+        <item>Problem solving, innovation ...</item>
+        <item>Problem solving, innovation ...</item>
+        <item>Problem solving, innovation ...</item>
+        <item>Problem solving, innovation ...</item>
+    </string-array>
+    <string-array name="names">
+        <item>Gontse</item>
+        <item>Thato</item>
+        <item>Lesego</item>
+        <item>Koketso</item>
+        <item>Mpho</item>
+        <item>Master</item>
+        <item>Lebo</item>
+        <item>Tumelo</item>
+        <item>Jacob</item>
+        <item>Moses</item>
+    </string-array>
+
+    <string-array name="eventNames">
+        <item>Heckaton</item>
+        <item>Study Group</item>
+        <item>Physics Class</item>
+        <item>Prograqmming class</item>
+        <item>Meet and greet</item>
+
+    </string-array>
+
+    <string name="navigation_open">open navigation drawer</string>
+    <string name="navigation_close">close navigation drawer</string>
+
+</resources>

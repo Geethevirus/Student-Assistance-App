@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TutorDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/light_grey"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Assistance Found!"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:src="@drawable/usercolor"/>
+
+        <TextView
+            android:id="@+id/tutor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gontse"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"/>
+        <LinearLayout
+            android:background="@color/gray_light"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/star"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="4.7"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/gray_light2"
+        android:layout_weight="3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Modules"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"/>
+
+        <TextView
+            android:id="@+id/tutorModules"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet veniam est est amet tempor elit dolor elit in Duis consectetur elit non ut do aute reprehenderit dolor esse in officia qui consectetur eiusmod veniam
+"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="About"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"/>
+        <TextView
+            android:id="@+id/aboutTutor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet veniam est est amet tempor elit dolor elit in Duis consectetur elit non ut do aute reprehenderit dolor esse in officia qui consectetur eiusmod veniam
+"/>
+        <Button
+            android:id="@+id/emailbtn"
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Email"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
